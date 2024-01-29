@@ -2,7 +2,6 @@ import logo from '../images/logo.svg'
 
 const Navbar = () => {
   return (
-    <div>
       <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
@@ -67,7 +66,6 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
-    </div>
   );
 };
 
