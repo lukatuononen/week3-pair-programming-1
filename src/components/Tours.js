@@ -1,7 +1,7 @@
-// import tour1 from '..images/tour-1.jpeg'
-// import tour2 from '..images/tour-2.jpeg'
-// import tour3 from '..images/tour-3.jpeg'
-// import tour4 from '..images/tour-4.jpeg'
+import tour1 from '../images/tour-1.jpeg' 
+import tour2 from '../images/tour-2.jpeg' 
+import tour3 from '../images/tour-3.jpeg' 
+import tour4 from '../images/tour-4.jpeg'
 
 function Tours() {
   return (
@@ -14,7 +14,7 @@ function Tours() {
             <article class="tour-card">
               <div class="tour-img-container">
                 <img
-                  src="images/tour-1.jpeg"
+                  src={tour1}
                   class="tour-img"
                   alt="Tibet Adventure"
                 />
@@ -39,7 +39,7 @@ function Tours() {
             <article class="tour-card">
               <div class="tour-img-container">
                 <img
-                  src="images/tour-2.jpeg"
+                  src={tour2}
                   class="tour-img"
                   alt="best of java"
                 />
@@ -64,7 +64,7 @@ function Tours() {
             <article class="tour-card">
               <div class="tour-img-container">
                 <img
-                  src="images/tour-3.jpeg"
+                  src={tour3}
                   class="tour-img"
                   alt="explore hong kong"
                 />
@@ -89,7 +89,7 @@ function Tours() {
             <article class="tour-card">
               <div class="tour-img-container">
                 <img
-                  src="images/tour-4.jpeg"
+                  src={tour4}
                   class="tour-img"
                   alt="kenya highlights"
                 />
