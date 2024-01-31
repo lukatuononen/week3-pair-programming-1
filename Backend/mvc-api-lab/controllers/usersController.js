@@ -1,4 +1,4 @@
-import users from "./models/users"
+const users = require("../models/users");
 const uuid = require("uuid");
 
 const getAllUsers = (req, res) => {

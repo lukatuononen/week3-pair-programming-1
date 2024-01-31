@@ -1,4 +1,5 @@
-import services from "./models/services"
+
+const services = require("../models/services");
 
 
 const getAllServices = (req, res) => {

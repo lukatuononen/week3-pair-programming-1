@@ -1,5 +1,5 @@
-import usersController from "./controllers/usersController"
-import express from "express"
+const usersController = require('../controllers/usersController');
+const express = require('express');
 const router = express.Router();
 
 // Get All Members

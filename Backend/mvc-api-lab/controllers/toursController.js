@@ -1,5 +1,5 @@
 
-import tours from "./models/tours"
+const tours = require("../models/tours");
 
 
 const getAllTours = (req, res) => {
